@@ -8,8 +8,6 @@
 	SplashController.$inject = ['$stateParams','$state'];
 	function SplashController($stateParams,$state) {
 		var vm = this;
-        
-
 		activate();
 
 		////////////////

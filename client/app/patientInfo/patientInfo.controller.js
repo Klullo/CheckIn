@@ -21,8 +21,6 @@
 
         //activate();
 
-
-
         //function activate() {}
 
         function save(patient, insurance) {
@@ -42,10 +40,7 @@
                         $state.go('emergencyContact', {
                             id: insurance.patientId
                         });
-                    });
-            
+                    });   
         }
-
-
     }
 })();
